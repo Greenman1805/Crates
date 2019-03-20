@@ -1,0 +1,8 @@
+name: Crates
+main: de.greenman1805.crates.Main
+version: 1.0
+author: Greenman1805
+
+commands:
+  crates:
+    description: All crates commands
