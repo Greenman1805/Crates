@@ -22,7 +22,7 @@ public class Main extends JavaPlugin {
 		CrateChest.globalid = getConfig().getInt("globalid");
 		getCommand("crates").setExecutor(new CrateCommand());
 
-		ItemStack iron_item = new ItemStack(Material.SILVER_SHULKER_BOX, 1);
+		ItemStack iron_item = new ItemStack(Material.LIGHT_GRAY_SHULKER_BOX, 1);
 		ItemStack gold_item = new ItemStack(Material.YELLOW_SHULKER_BOX, 1);
 		ItemStack diamond_item = new ItemStack(Material.LIGHT_BLUE_SHULKER_BOX, 1);
 
